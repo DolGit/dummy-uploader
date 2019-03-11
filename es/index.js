@@ -7,4 +7,6 @@ export default (function (callback, options) {
     setTimeout(function () {
         return input.click();
     }, 50);
+    document.body.append(input);
+    input.style.display = 'none';
 });
