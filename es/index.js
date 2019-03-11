@@ -4,5 +4,7 @@ export default (function (callback, options) {
     input.addEventListener("change", function (e) {
         callback(e.target.files[0], options);
     });
-    input.click();
+    setTimeout(function () {
+        return input.click();
+    }, 50);
 });

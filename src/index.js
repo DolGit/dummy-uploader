@@ -4,5 +4,5 @@ export default (callback, options) => {
     input.addEventListener("change", (e) => {
         callback(e.target.files[0], options)
     })
-    input.click()
+    setTimeout(() => input.click(), 50)
 }

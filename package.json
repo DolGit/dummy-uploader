@@ -1,6 +1,6 @@
 {
   "name": "@dolnpm/dummy-uploader",
-  "version": "0.1.0-development",
+  "version": "0.1.1-development",
   "description": "This function fakes an input field during a click event and invokes a callback with the file data. Perfect for dispatching a Redux action in the callback.",
   "main": "lib/index.js",
   "module": "es/index.js",
